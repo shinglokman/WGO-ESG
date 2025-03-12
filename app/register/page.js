@@ -71,13 +71,13 @@ const page = () => {
                 </p>
                 <div className="quick-contact__contact-list">
                   <p>
-                    <a href="mailto:support@mailus.com">
-                      Phone: +852 XXXXXXXX
+                    <a>
+                      Phone: +852 6081 5461
                     </a>
                   </p>
                   <p>
                     <a href="mailto:sendmail@company.com">
-                      Email: esgxchangehk@thewgo.org{" "}
+                      Email: nickauyong@thewgo.org{" "}
                     </a>
                   </p>
                 </div>

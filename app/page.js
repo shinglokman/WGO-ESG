@@ -112,9 +112,9 @@ const page = () => {
         </div>
         <div className="container">
           <div className="site-footer-two__top-inner">
-            <div className="site-footer-two__logo">
+            <div className="site-footer-two__logo" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
               <div className="site-footer-two__top-icon-content">
-                <h5 style={{paddingBottom: '10%'}}>Organiser</h5>
+                <h5 style={{paddingBottom: '10px'}}>Organiser</h5>
               </div>
               <Link href="">
                 <img
@@ -124,9 +124,9 @@ const page = () => {
                 />
               </Link>
             </div> 
-            <div className="site-footer-two__logo">
+            <div className="site-footer-two__logo" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
               <div className="site-footer-two__top-icon-content">
-                <h5 style={{paddingBottom: '10%'}}>Co-Organiser</h5>
+                <h5 style={{paddingBottom: '10px'}}>Co-Organiser</h5>
               </div>
               <Link href="">
                 <img
@@ -136,9 +136,9 @@ const page = () => {
                 />
               </Link>
             </div> 
-            <div className="site-footer-two__logo">
+            <div className="site-footer-two__logo" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
               <div className="site-footer-two__top-icon-content">
-                <h5 style={{paddingBottom: '10%'}}>Conference Partners</h5>
+                <h5 style={{paddingBottom: '10px'}}>Conference Partners</h5>
               </div>
               <Link href="">
                 <img
