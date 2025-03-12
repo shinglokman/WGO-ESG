@@ -204,7 +204,7 @@ export const HeroSlider2 = () => {
   );
 };
 
-export const HeroSlider1 = () => {
+export const HeroSlider3 = () => {
   return (
     <section className="main-slider">
       <Swiper
