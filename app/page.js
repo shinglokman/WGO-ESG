@@ -112,12 +112,6 @@ const page = () => {
         </div>
         <div className="container">
           <div className="site-footer-two__top-inner">
-            <div className="site-footer-two__top-shape-1 img-bounce">
-              <img
-                src="assets/images/shapes/site-footer-two-top-shape-1.png"
-                alt=""
-              />
-            </div>
             <div className="site-footer-two__logo">
               <div className="site-footer-two__top-icon-content">
                 <h5 style={{paddingBottom: '10%'}}>Organiser</h5>
@@ -375,7 +369,7 @@ collaborations, staying ahead of global ESG trends, and achieving measurable bus
             </div>
           </div>
         </div>
-        <iframe style={{width: '80%', height: '700px',margin: '5% 10%'}} src="https://www.youtube.com/embed/rZOfyfpP-zA?si=X9PaFtZybqqHWVP-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe style={{width: '80%', height: '700px',margin: '5% 10%', maxWidth: '1500px'}} src="https://www.youtube.com/embed/rZOfyfpP-zA?si=X9PaFtZybqqHWVP-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       </section>
       {/*Project One End*/}

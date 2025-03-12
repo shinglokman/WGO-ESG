@@ -3953,7 +3953,6 @@ ul {
 .counter-one__wrap {
   position: relative;
   display: block;
-  max-width: 1700px;
   width: 100%;
   background-image: -moz-linear-gradient(
     180deg,
@@ -11013,9 +11012,10 @@ a.team-two__social-three {
 .site-footer-two__top {
   position: relative;
   display: block;
-  background-color: var(--envens-base);
+  background-color: transparent;
   overflow: hidden;
   z-index: 1;
+  color: var(--envens-base);
 }
 
 .site-footer-two__top-inner {
@@ -11026,8 +11026,9 @@ a.team-two__social-three {
   flex-wrap: wrap;
   overflow: hidden;
   padding: 45px 0px;
-  background-color: var(--envens-base);
+  background-color: transparent;
   z-index: 1;
+  color: var(--envens-base);
 }
 
 .site-footer-two__top-shape-1 {
@@ -11100,19 +11101,19 @@ a.team-two__social-three {
 }
 
 .site-footer-two__top-icon-content p {
-  color: var(--envens-white);
+  color: var(--envens-base);
   margin-bottom: 4px;
 }
 
 .site-footer-two__top-icon-content h5 {
   font-size: 24px;
   font-weight: 500;
-  color: var(--envens-white);
+  color: var(--envens-base);
   line-height: 24px;
 }
 
 .site-footer-two__top-icon-content h5 a {
-  color: var(--envens-white);
+  color: var(--envens-base);
 }
 
 .site-footer-two__top-icon-content h5 a:hover {
