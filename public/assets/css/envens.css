@@ -684,7 +684,7 @@ ul {
   top: 0px;
   right: 0px;
   width: 100%;
-  background: transparent;
+  background: white;
   transition: all 500ms ease;
   z-index: 999;
 }
@@ -733,7 +733,7 @@ ul {
 .main-menu__logo {
   position: relative;
   display: block;
-  padding: 33px 0;
+  padding: 15px 0;
   z-index: 1;
 }
 
@@ -864,7 +864,7 @@ ul {
 }
 
 .main-menu__social a:hover {
-  color: var(--envens-white);
+  color: var(--envens-black);
 }
 
 .main-menu__social a + a {
@@ -922,19 +922,19 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 26px;
-  color: var(--envens-white);
+  color: var(--envens-black);
 }
 
 .main-menu__search-text {
   font-size: 20px;
   font-weight: 500;
-  color: var(--envens-white);
+  color: var(--envens-black);
   font-family: var(--envens-font);
   line-height: 20px;
 }
 
 .stricky-header.main-menu {
-  background-color: var(--envens-black);
+  background-color: var(--envens-white);
 }
 
 .main-menu .main-menu__list,
@@ -988,7 +988,7 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: var(--envens-white);
+  color: var(--envens-black);
   font-weight: 500;
   position: relative;
   -webkit-transition: all 500ms ease;
@@ -1583,7 +1583,7 @@ ul {
 --------------------------------------------------------------*/
 .main-menu-two .main-menu__social a {
   background-color: rgba(var(--envens-white-rgb), 0.05);
-  color: var(--envens-white);
+  color: var(--envens-black);
 }
 
 .main-menu-two .main-menu__social a + a {

@@ -357,20 +357,16 @@ collaborations, staying ahead of global ESG trends, and achieving measurable bus
         ></div>
         <div className="container">
           <div className="project-one__inner">
-            <div className="section-title text-left">
-              <div className="section-title__tagline-box">
-                <p className="section-title__tagline section-title__tagline--two">
-                  <span>//</span> Past Events
-                </p>
-              </div>
+            <div className="section-title text-left" style={{padding: '0 10%'}}>
+
               <h2 className="section-title__title">
-              <span>2023</span> Highlights <br />
+              Past Conference <span>Highlights</span>
               </h2>
             </div>
+            <iframe style={{width: '80%', height: '700px',margin: '5% 10%', maxWidth: '1500px'}} src="https://www.youtube.com/embed/JYxTbaiHCAo?si=G0_yXqJpfiw31c3u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe style={{width: '80%', height: '700px',margin: '0% 10%', maxWidth: '1500px'}} src="https://www.youtube.com/embed/rZOfyfpP-zA?si=X9PaFtZybqqHWVP-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
-        <iframe style={{width: '80%', height: '700px',margin: '5% 10%', maxWidth: '1500px'}} src="https://www.youtube.com/embed/rZOfyfpP-zA?si=X9PaFtZybqqHWVP-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
       </section>
       {/*Project One End*/}
     </EnvensLayouts>
