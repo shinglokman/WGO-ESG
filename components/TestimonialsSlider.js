@@ -31,10 +31,10 @@ const TestimonialsSlider = () => {
             {...sliderProps.testimonial1}
             className="thm-swiper__slider swiper-container"
           >
-            <div className="swiper-wrapper">
+            <div className="swiper-wrapper" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', width: '100%'}}>
               {/*Testimonial One Single Start*/}
               <SwiperSlide className="swiper-slide">
-                <div className="testimonial-one__single" style={{width: '150%', marginLeft: '0%'}}>
+                <div className="testimonial-one__single" style={{width: '150%', marginLeft: '0%', display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly'}}>
                   <p className="testimonial-one__text">
                     "ESG Xchange drives impactful collaborations, advancing sustainability and green finance leadership in Asia and beyond."
                   </p>
@@ -57,7 +57,7 @@ const TestimonialsSlider = () => {
               {/*Testimonial One Single End*/}
               {/*Testimonial One Single Start*/}
               <SwiperSlide className="swiper-slide">
-                <div className="testimonial-one__single" style={{width: '150%', marginLeft: '50%'}}>
+                <div className="testimonial-one__single" style={{width: '150%', marginLeft: '50%', display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly'}}>
                   <p className="testimonial-one__text">
                     "ESG Xchange empowers global partnerships, fostering green transformation and cementing Hong Kong's sustainable finance leadership."
                   </p>

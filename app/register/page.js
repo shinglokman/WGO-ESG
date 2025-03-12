@@ -175,7 +175,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                         <div className="contact-two__input-box">
                           <div className="select-box">
                           <FormControl fullWidth>
-                            <InputLabel id="demo-simple-select-label" style={{color: '#fff'}}>Seniority Level</InputLabel>
+                            <InputLabel id="demo-simple-select-label" style={{color: '#fff', paddingLeft: '20px'}}>Seniority Level *</InputLabel>
                             <Select
                               labelId="demo-simple-select-label"
                               id="demo-simple-select"
@@ -185,15 +185,20 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                               name="entry.1784453667"
                               labelStyle={{ color: '#ff0000' }}
                               sx={{
-                                color: "white",
+                                color: "white", 
+                                height: '60px',
+                                borderRadius: '15px', 
+                                fontWeight: '500',
+                                fontSize: '16px',
+                                backgroundColor: '#ffffff33',
                                 '.MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '&:hover .MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '.MuiSvgIcon-root ': {
                                   fill: "white !important",
@@ -218,7 +223,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                         <div className="contact-two__input-box">
                           <div className="select-box">
                           <FormControl fullWidth>
-                            <InputLabel id="demo-simple-select-label" style={{color: '#fff'}}>Country</InputLabel>
+                            <InputLabel id="demo-simple-select-label" style={{color: '#fff', paddingLeft: '20px'}}>Country *</InputLabel>
                             <Select
                               labelId="demo-simple-select-label"
                               id="demo-simple-select"
@@ -228,15 +233,20 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                               name="entry.1694484754"
                               labelStyle={{ color: '#ff0000' }}
                               sx={{
-                                color: "white",
+                                color: "white", 
+                                height: '60px',
+                                borderRadius: '15px', 
+                                fontWeight: '500',
+                                fontSize: '16px',
+                                backgroundColor: '#ffffff33',
                                 '.MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '&:hover .MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '.MuiSvgIcon-root ': {
                                   fill: "white !important",
@@ -462,7 +472,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                         <div className="contact-two__input-box">
                           <div className="select-box">
                           <FormControl fullWidth>
-                            <InputLabel id="demo-simple-select-label" style={{color: '#fff'}}>Mode of Transport</InputLabel>
+                            <InputLabel id="demo-simple-select-label" style={{color: '#fff', paddingLeft: '20px'}}>Mode of Transport</InputLabel>
                             <Select
                               labelId="demo-simple-select-label"
                               id="demo-simple-select"
@@ -472,15 +482,20 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                               name="entry.1096684556"
                               labelStyle={{ color: '#ff0000' }}
                               sx={{
-                                color: "white",
+                                color: "white", 
+                                height: '60px',
+                                borderRadius: '15px', 
+                                fontWeight: '500',
+                                fontSize: '16px',
+                                backgroundColor: '#ffffff33',
                                 '.MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '&:hover .MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '.MuiSvgIcon-root ': {
                                   fill: "white !important",
@@ -506,7 +521,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                         <div className="contact-two__input-box">
                           <div className="select-box">
                           <FormControl fullWidth>
-                            <InputLabel id="demo-simple-select-label" style={{color: '#fff'}}>Organisation Type</InputLabel>
+                            <InputLabel id="demo-simple-select-label" style={{color: '#fff', paddingLeft: '20px'}}>Organisation Type</InputLabel>
                             <Select
                               labelId="demo-simple-select-label"
                               id="demo-simple-select"
@@ -516,15 +531,20 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                               name="entry.1383365476"
                               labelStyle={{ color: '#ff0000' }}
                               sx={{
-                                color: "white",
+                                color: "white", 
+                                height: '60px',
+                                borderRadius: '15px', 
+                                fontWeight: '500',
+                                fontSize: '16px',
+                                backgroundColor: '#ffffff33',
                                 '.MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '&:hover .MuiOutlinedInput-notchedOutline': {
-                                  borderColor: 'white',
+                                  borderColor: 'transparent',
                                 },
                                 '.MuiSvgIcon-root ': {
                                   fill: "white !important",
@@ -581,7 +601,7 @@ experience for participants. <br/><br/>
                             defaultValue={""}
                           />
                       </div>*/}
-                      <FormControlLabel required control={<Checkbox />} label="I agree to the Terms and Conditions" name="entry.1350208563"/>
+                      <FormControlLabel required control={<Checkbox style={{color: '#fff'}}/>} label="I agree to the Terms and Conditions" name="entry.1350208563"/>
                         <div className="contact-two__btn-box">
                           <button
                             type="submit"
