@@ -104,7 +104,7 @@ const AboutUs = () => {
               </ul>
               <div className="about-two__btn-and-client-info">
                 <div className="about-two__btn-box">
-                  <Link href="/about" className="about-two__btn thm-btn-two">
+                  <Link href="" className="about-two__btn thm-btn-two">
                     <span className="fas fa-arrow-circle-right" />
                     About the Organiser
                   </Link>

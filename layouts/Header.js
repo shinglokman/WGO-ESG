@@ -28,7 +28,7 @@ const Menus = () => {
         <Social/>
       </li>
       <li>
-        <Link href="/index2">Home </Link>
+        <Link href="/">Home </Link>
       </li>
       <li >
         <div className="about-two__btn-box">
@@ -85,7 +85,7 @@ const MobileMenu = ({ mobileToggle, setMobileToggle }) => {
         </span>
         <div className="logo-box">
           <Link href="/" aria-label="logo image">
-            <img src="assets/images/resources/logo-2.png" width={150} alt />
+            <img src="assets/images/resources/header.png" style={{width: '100%'}} alt />
           </Link>
         </div>
         {/* /.logo-box */}
@@ -106,7 +106,7 @@ const MobileMenu = ({ mobileToggle, setMobileToggle }) => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="fa fa-envelope" />
-            <a href="mailto:needhelp@packageName__.com">esgxchangehk@wgo.org</a>
+            <a href="mailto:esgxchangehk@wgo.org">esgxchangehk@wgo.org</a>
           </li>
           <li>
             <i className="fa fa-phone-alt" />
