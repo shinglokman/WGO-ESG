@@ -238,13 +238,7 @@ const Footer1 = () => {
 const Footer2 = () => {
   return (
     <footer className="site-footer-two">
-      <div
-        className="site-footer-two__shape-bg-1"
-        style={{
-          backgroundImage:
-            "url(assets/images/shapes/site-footer-two-shape-bg-1.png)",
-        }}
-      />
+
       <div className="site-footer-two__top">
         <div className="site-footer-two__top-shape-2 float-bob-x">
           <img
@@ -284,6 +278,21 @@ const Footer2 = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="site-footer-two__bottom">
+        <div className="container">
+          <div className="site-footer-two__bottom-inner">
+            <p className="site-footer-two__bottom-text">
+              Copyright ©️ 2025 World Green Organisation (WGO). All rights reserved
+            </p>
+            <ul className="list-unstyled site-footer-two__botom-menu">
+              <li>
+                <Link href="/privacy">Privacy Policy</Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

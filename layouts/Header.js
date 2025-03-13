@@ -32,7 +32,7 @@ const Menus = () => {
       </li>
       <li >
         <div className="about-two__btn-box">
-          <Link href="/register" className="about-two__btn thm-btn-two">
+          <Link href="/register" className="about-two__btn thm-btn-two" style={{fontSize: '16px'}}>
             <span className="fas " />
             Register
           </Link>
@@ -45,13 +45,13 @@ const Menus = () => {
 const Social = () => {
   return (
     <div className="main-menu__social">
-      <a href="#">
+      <a href="https://www.facebook.com/worldgreenorganisation/">
         <span className="fab fa-facebook-f" />
       </a>
-      <a href="">
-        <span className="fab fa-twitter" />
+      <a href="https://www.instagram.com/worldgreenorganisation/">
+        <span className="fab fa-instagram" />
       </a>
-      <a href="">
+      <a href="https://www.linkedin.com/company/world-green-organisation">
         <span className="fab fa-linkedin-in" />
       </a>
     </div>
@@ -97,7 +97,12 @@ const MobileMenu = ({ mobileToggle, setMobileToggle }) => {
               </Link>
             </li>
             <li>
-              <Link href="/register">Register</Link>
+              <div className="about-two__btn-box">
+                <Link href="/register" className="about-two__btn thm-btn-two">
+                  <span className="fas " />
+                  Register
+                </Link>
+              </div>
             </li>
           </ul>
         </div>
@@ -106,11 +111,11 @@ const MobileMenu = ({ mobileToggle, setMobileToggle }) => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="fa fa-envelope" />
-            <a href="mailto:esgxchangehk@wgo.org">esgxchangehk@wgo.org</a>
+            <a href="mailto:nickauyong@wgo.org">nickauyong@thewgo.org</a>
           </li>
           <li>
             <i className="fa fa-phone-alt" />
-            <a href="tel:666-888-0000">666 888 0000</a>
+            <a href="tel:+85260815461">+852 6081 5461</a>
           </li>
         </ul>
         {/* /.mobile-nav__contact */}

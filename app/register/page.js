@@ -43,6 +43,7 @@ const page = () => {
           <div className="row">
             {/*Quick Contact Single Start*/}
             <div className="col-xl-6 col-lg-6">
+            <a href="#registration-form">
               <div className="quick-contact__single">
                 <h4 className="quick-contact__title">Visitor Pass</h4>
                 <br/>
@@ -59,6 +60,7 @@ const page = () => {
                   <span className="icon-pin" />
                 </div>
               </div>
+              </a>
             </div>
             {/*Quick Contact Single End*/}
             {/*Quick Contact Single Start*/}
@@ -92,7 +94,7 @@ const page = () => {
       </section>
       {/*Quick Contact End*/}
       {/*Contact Two Start*/}
-      <section className="contact-two">
+      <section className="contact-two" id="registration-form">
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
@@ -108,7 +110,7 @@ const page = () => {
                   <span>Visitor</span> Registration for ESG Xchange 2025
                   </h2>
                   <p className="section-title__tagline section-title__tagline--two">
-                  <br/>Welcome to the online registration form for ESG Xchange 2025: ESG for Climate Action International Summit! <br/><br/>
+                  <br/>Welcome to the online registration form for ESG Xchange 2025: ESG for Climate Actions International Summit! <br/><br/>
 ESG Xchange 2025 is the most anticipated global ESG event in Hong Kong. This two-day event connects bringing together high-level stakeholders from the United Nations, governments, international leaders, innovators, funders, policymakers and corporates to drive transformative action in sustainability. <br/><br/>
 ENTRY IS FREE: Free entry is available for all participants, whether you are from private &amp; public sector corporates, investors, funders, NGOs, policymakers, not-for-profits, and start-ups and innovators, or anyone looking to explore the global latest trend of Sustainability.
                   </p>
@@ -466,6 +468,19 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                           />
                         </div>
                       </div>
+                      
+                      {/*<p className="section-title__tagline section-title__tagline--two"> <br/> Which sessions are you interested in? <br/><br/></p>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Session 1 " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Session 2 " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Session 3 " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Session 4 " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Session 5 " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Session 6 " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Session 7 " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Session 8 " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Session 9 " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Session 10 " name="entry.1350208563"/></div>
+                      */}
                       <p className="section-title__tagline section-title__tagline--two"> <br/> To help us measure our carbon footprint, please let us know: <br/><br/></p>
                       <div className="col-xl-6 col-lg-6">
                         What mode of transport will you use to travel the greatest distance in your journey to the event?
@@ -517,7 +532,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                         
                         
                       <div className="col-xl-6 col-lg-6">
-                      What is your organisation type?
+                      <br/>What is your organisation type?
                         <div className="contact-two__input-box">
                           <div className="select-box">
                           <FormControl fullWidth>
