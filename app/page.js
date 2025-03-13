@@ -5,6 +5,7 @@ import NextEvent from "@/components/NextEvent";
 import Pricing from "@/components/Pricing";
 import Team from "@/components/Team";
 import TestimonialsSlider from "@/components/TestimonialsSlider";
+import ConferenceInfo from "@/components/ConferenceInfo";
 import EnvensLayouts from "@/layouts/EnvensLayouts";
 import dynamic from "next/dynamic";
 import Link from "next/link";
@@ -153,14 +154,15 @@ const page = () => {
         </div>
       </div>
 
+      <ConferenceInfo/>
+
+{/* 
       <section className="about-two">
         <div className="container">
           <div className="row">
             <div className="col-xl-6 wow fadeInRight" data-wow-delay="300ms">
               <div className="about-two__right">
                 <div className="section-title text-left">
-                  <div className="section-title__tagline-box">
-                  </div>
                   <h2 className="section-title__title">
                   <span>Main Stage: </span>Keynote Speech, Solo Presentation, Panel Discussions
                   </h2>
@@ -226,6 +228,7 @@ const page = () => {
           </div>
         </div>
       </section>
+      */}
 
       {/*Sponsors logos */}
       <Brand className="brand-three brand-five" />
@@ -259,89 +262,7 @@ transformative action in sustainability. With exclusive opportunities for co-des
 collaborations, staying ahead of global ESG trends, and achieving measurable business outcomes.
           </p>
           <br/>
-          <div className="join-event__top">
-            <div className="row">
-              {/*Join Event Single Start*/}
-              <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="100ms"
-              >
-                <div className="join-event__single">
-                  <h3 className="join-event__title">
-                    High-Level Engagement with Global Leaders
-                  </h3>
-                  
-                </div>
-              </div>
-              {/*Join Event Single End*/}
-              {/*Join Event Single Start*/}
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <div className="join-event__single-2">
-                  <div
-                    className="join-event__img"
-                    style={{
-                      backgroundImage: "url(assets/images/logos/logo.png)",
-                      width: '517px',
-                      backgroundSize: '517px'
-                    }}
-                  ></div>
-                </div>
-              </div>
-              {/*Join Event Single End*/}
-              {/*Join Event Single Start*/}
-              <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="300ms"
-              >
-                <div className="join-event__single">
-                  <h3 className="join-event__title">
-                    Exclusive Access to Policymakers and Innovators
-                  </h3>
-                </div>
-              </div>
-              {/*Join Event Single End*/}
-            </div>
-          </div>
-          <div className="join-event__bottom">
-            <div className="row">
-              {/*Join Event Single Start*/}
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="400ms"
-              >
-                <div className="join-event__single mr-50px">
-                  <h3 className="join-event__title">
-                    New Market Penetration / Local Partner
-                  </h3>
-                </div>
-              </div>
-              {/*Join Event Single End*/}
-              {/*Join Event Single Start*/}
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="500ms"
-              >
-                <div className="join-event__single">
-                  <h3 className="join-event__title">
-                    Global Trend-Aligned Key Topics
-                  </h3>
-                </div>
-              </div>
-              {/*Join Event Single End*/}
-              {/*Join Event Single Start*/}
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="600ms"
-              >
-                <div className="join-event__single mr-50px">
-                  <h3 className="join-event__title">
-                  The Ultimate Platform for Actionable Deal-Making
-                  </h3>
-                </div>
-              </div>
-              {/*Join Event Single End*/}
-            </div>
-          </div>
+          <img src="assets/images/resources/why-event.png" style={{width: '90%', margin: '2% 5%'}}/>
         </div>
       </section>
       {/*Join Event End*/}
