@@ -232,8 +232,12 @@ const page = () => {
 
       {/*Sponsors logos */}
       <Brand className="brand-three brand-five" />
+
+
+      <img src="assets/images/testimonial/testimonials.png" style={{width: '90%', margin: '0% 5%'}}/>
+      {/*
       <TestimonialsSlider/>
-      {/*Join Event Start*/}
+      Join Event Start*/}
       <section className="join-event">
         <div className="container">
           <div className="join-event__title-and-btn-box">
