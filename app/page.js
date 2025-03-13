@@ -57,7 +57,7 @@ const page = () => {
                         <Counter end={1500} />+
                       </h3>
                     </div>
-                    <p className="counter-one__text"> Global Attendees</p>
+                    <p className="counter-one__text"> Global <br/>Attendees</p>
                   </div>
                 </li>
                 <li className="wow fadeInLeft" data-wow-delay="200ms">
@@ -67,7 +67,7 @@ const page = () => {
                         <Counter end={10} />+
                       </h3>
                     </div>
-                    <p className="counter-one__text">Countries</p>
+                    <p className="counter-one__text">Represented <br/>Countries</p>
                   </div>
                 </li>
                 <li className="wow fadeInLeft" data-wow-delay="300ms">
@@ -77,7 +77,7 @@ const page = () => {
                         <Counter end={40} />+
                       </h3>
                     </div>
-                    <p className="counter-one__text">Sponsors and Exhibitors</p>
+                    <p className="counter-one__text">Sponsors and <br/>Exhibitors</p>
                   </div>
                 </li>
                 <li className="wow fadeInLeft" data-wow-delay="400ms">
@@ -87,7 +87,7 @@ const page = () => {
                         <Counter end={100} />+
                       </h3>
                     </div>
-                    <p className="counter-one__text">Distinguished Speakers</p>
+                    <p className="counter-one__text">Distinguished <br/>Speakers</p>
                   </div>
                 </li>
               </ul>
