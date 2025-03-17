@@ -11794,6 +11794,22 @@ a.team-two__social-three {
   border-radius: 32px;
 }
 
+.contact-two__btn:disabled {
+  border: none;
+  background-color: var(--envens-gray);
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 0.075em;
+  padding: 18px 26px 18px;
+  border-radius: 32px;
+  cursor: not-allowed;
+}
+
+.contact-two__btn:disabled:hover {
+  color: var(--envens-gray);
+}
+
 .contact-two__btn:hover {
   color: var(--envens-base);
 }

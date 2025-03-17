@@ -10,6 +10,45 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 
 const page = () => {
+
+  const [isButtonDisabled, setIsButtonDisabled] = useState(true);
+  const [form, setForm] = useState({
+    'entry.272234028': '',
+    'entry.353530242': '',
+    'entry.1891090765': '',
+    'entry.1408648040': '',
+    'entry.1426208417': '',
+    'entry.1784453667': '',
+    'entry.1694484754': '',
+    'entry.856495849': '',
+    'entry.1096684556': '',
+    'entry.1383365476': '',
+    'entry.1350208563': ''
+  })
+
+  useEffect(() => {
+    console.log('Form data updated:', form);
+    // Check if all fields are filled
+    const allFieldsFilled = Object.values(form).every((value) => value.trim() !== '');
+    setIsButtonDisabled(!allFieldsFilled);
+  }, [form]);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+    console.log('Form data updated:', name, ': ', value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert('Registration Successful!');
+    // You can also send the data to an API or perform other actions here
+  };
+
+/*
   const [seniority, setSeniority] = useState('');
   useEffect(() => {setSeniority(seniority)}, [seniority])
   const ChangeSen = (event) => {
@@ -33,6 +72,7 @@ const page = () => {
   const ChangeOrg = (event) => {
     setOrg(event.target.value);
   };
+  */
 
   return (
     <EnvensLayouts>
@@ -128,6 +168,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                             type="text"
                             name="entry.272234028"
                             placeholder="First Name *"
+                            onChange={handleChange}
                             required
                           />
                         </div>
@@ -138,6 +179,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                             type="text"
                             name="entry.353530242"
                             placeholder="Last Name *"
+                            onChange={handleChange}
                             required
                           />
                         </div>
@@ -148,6 +190,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                             type="text"
                             name="entry.1891090765"
                             placeholder="Business Email *"
+                            onChange={handleChange}
                             required
                           />
                         </div>
@@ -158,6 +201,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                             type="text"
                             name="entry.1408648040"
                             placeholder="Company Name *"
+                            onChange={handleChange}
                             required
                           />
                         </div>
@@ -168,6 +212,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                             type="text"
                             name="entry.1426208417"
                             placeholder="Job Title *"
+                            onChange={handleChange}
                             required
                           />
                         </div>
@@ -181,9 +226,11 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                             <Select
                               labelId="demo-simple-select-label"
                               id="demo-simple-select"
-                              value={seniority}
+                              // value={seniority}
+                              value={form['entry.1784453667']}
                               label="Seniority Level"
-                              onChange={ChangeSen}
+                              // onChange={ChangeSen}
+                              onChange={handleChange}
                               name="entry.1784453667"
                               labelStyle={{ color: '#ff0000' }}
                               sx={{
@@ -229,9 +276,11 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                             <Select
                               labelId="demo-simple-select-label"
                               id="demo-simple-select"
-                              value={country}
+                              // value={country}
+                              value={form["entry.1694484754"]}
                               label="Country"
-                              onChange={ChangeCount}
+                              // onChange={ChangeCount}
+                              onChange={handleChange}
                               name="entry.1694484754"
                               labelStyle={{ color: '#ff0000' }}
                               sx={{
@@ -464,6 +513,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                             type="text"
                             name="entry.856495849"
                             placeholder="Phone Number *"
+                            onChange={handleChange}
                             required
                           />
                         </div>
@@ -487,13 +537,16 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                         <div className="contact-two__input-box">
                           <div className="select-box">
                           <FormControl fullWidth>
-                            <InputLabel id="demo-simple-select-label" style={{color: '#fff', paddingLeft: '20px'}}>Mode of Transport</InputLabel>
+                            <InputLabel id="demo-simple-select-label" style={{color: '#fff', paddingLeft: '20px'}}>Mode of Transport *</InputLabel>
                             <Select
+                              required
                               labelId="demo-simple-select-label"
                               id="demo-simple-select"
-                              value={dis}
+                              // value={dis}
+                              value={form['entry.1096684556']}
                               label="Mode of Transport"
-                              onChange={ChangeDis}
+                              // onChange={ChangeDis}
+                              onChange={handleChange}
                               name="entry.1096684556"
                               labelStyle={{ color: '#ff0000' }}
                               sx={{
@@ -536,13 +589,16 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                         <div className="contact-two__input-box">
                           <div className="select-box">
                           <FormControl fullWidth>
-                            <InputLabel id="demo-simple-select-label" style={{color: '#fff', paddingLeft: '20px'}}>Organisation Type</InputLabel>
+                            <InputLabel id="demo-simple-select-label" style={{color: '#fff', paddingLeft: '20px'}}>Organisation Type *</InputLabel>
                             <Select
+                              required
                               labelId="demo-simple-select-label"
                               id="demo-simple-select"
-                              value={org}
+                              // value={org}
+                              value={form['entry.1383365476']}
                               label="Organisation Type"
-                              onChange={ChangeOrg}
+                              // onChange={ChangeOrg}
+                              onChange={handleChange}
                               name="entry.1383365476"
                               labelStyle={{ color: '#ff0000' }}
                               sx={{
@@ -616,13 +672,14 @@ experience for participants. <br/><br/>
                             defaultValue={""}
                           />
                       </div>*/}
-                      <FormControlLabel required control={<Checkbox style={{color: '#fff'}}/>} label="I agree to the Terms and Conditions" name="entry.1350208563"/>
+                      <FormControlLabel required control={<Checkbox style={{color: '#fff'}}/>} label="I agree to the Terms and Conditions" name="entry.1350208563" onChange={handleChange}/>
                         <div className="contact-two__btn-box">
                           <button
                             type="submit"
                             className="thm-btn contact-two__btn"
+                            disabled={isButtonDisabled}
                           >
-                            Register
+                            { isButtonDisabled ? <div style={{fontSize: '70%'}}>Complete all fields</div> : 'Register'}
                           </button>
                         </div>
                       </div>
