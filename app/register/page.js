@@ -672,7 +672,7 @@ experience for participants. <br/><br/>
                             defaultValue={""}
                           />
                       </div>*/}
-                      <FormControlLabel required control={<Checkbox style={{color: '#fff'}}/>} label="I agree to the Terms and Conditions" name="entry.1350208563" onChange={handleChange}/>
+                        <FormControlLabel required control={<Checkbox style={{color: '#fff'}}/>} label="I agree to the Terms and Conditions" name="entry.1350208563" onChange={handleChange}/>
                         <div className="contact-two__btn-box">
                           <button
                             type="submit"
