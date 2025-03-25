@@ -679,8 +679,9 @@ experience for participants. <br/><br/>
                             className="thm-btn contact-two__btn"
                             disabled={isButtonDisabled}
                           >
-                            { isButtonDisabled ? <div style={{fontSize: '70%'}}>Complete all fields</div> : 'Register'}
+                            Register
                           </button>
+                          { isButtonDisabled ? <div style={{padding: '1%'}}> (Complete all fields to submit) </div> : <p></p>}
                         </div>
                       </div>
                   </form>

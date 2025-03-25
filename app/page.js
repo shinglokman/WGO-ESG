@@ -286,7 +286,7 @@ collaborations, staying ahead of global ESG trends, and achieving measurable bus
             <div className="section-title text-left" style={{padding: '0 10%'}}>
 
               <h2 className="section-title__title">
-              Past Conference <span>Highlights</span>
+              Past Conferences <span>Highlights</span>
               </h2>
             </div>
             <iframe style={{width: '80%', height: '700px',margin: '5% 10%', maxWidth: '1500px'}} src="https://www.youtube.com/embed/JYxTbaiHCAo?si=G0_yXqJpfiw31c3u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
