@@ -5,7 +5,7 @@ const page = () => {
     return(
         <EnvensLayouts>
       <PageBanner pageName={"Privacy Policy"} />
-        <div>
+        <div style={{textAlign: 'justify'}}>
             <h4 style={{padding: '2% 10% 0% 10%'}}> 
                 World Green Organisation (ESGXchange) takes your privacy seriously. We are committed to protecting your privacy in accordance with Hong Kong’s Personal Data (Privacy) Ordinance (“PDPO”). Please read the following to learn more about our privacy policy. This policy applies to the treatment of personal information by World Green Organisation (ESGXchange).
             </h4>

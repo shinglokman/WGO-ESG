@@ -132,7 +132,7 @@ export const HeroSlider1 = () => {
 
 export const HeroSlider2 = () => {
   return (
-    <section className="main-slider-two" style={{marginTop: '160px'}}>
+    <section className="main-slider-two" style={{marginTop: '100px'}}>
       <Swiper
         {...sliderProps.heroSlider}
         className="swiper-container thm-swiper__slider"

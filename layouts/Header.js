@@ -30,6 +30,69 @@ const Menus = () => {
       <li>
         <Link href="/">Home </Link>
       </li>
+      <li className="dropdown">
+        <Link href="/exhibitors-and-sponsors">Exhibitors and Sponsors</Link>
+        <ul>
+          <li>
+            <Link href="/exhibitors-and-sponsors">Why Sponsor and Exhibit</Link>
+          </li>
+          <li>
+            <Link href="/exhibitors-and-sponsors#2025">2025 Sponsors and Exhibitors</Link>
+          </li>
+        </ul>
+      </li>
+      <li className="dropdown">
+        <Link href="/partners">Partners</Link>
+        <ul>
+          <li>
+            <Link href="/partners#organiser">Organiser</Link>
+          </li>
+          <li>
+            <Link href="/partners#co-organiser">Co-organiser</Link>
+          </li>
+          <li>
+            <Link href="/partners#conference-partner">Conference Partner</Link>
+          </li>
+          <li>
+            <Link href="/partners#supporting-organisations">Supporting Organisations</Link>
+          </li>
+        </ul>
+      </li>
+      {/*<li className="dropdown">
+        <Link href="/summit">Summit</Link>
+        <ul>
+          <li>
+            <Link href="/">2025 Summit</Link>
+          </li>
+          <li>
+            <Link href="/">Global Climate Leadership Main Stage</Link>
+          </li>
+          <li>
+            <Link href="/">The Innovation Stage</Link>
+          </li>
+          <li>
+            <Link href="/">Green Finance &amp; Carbon Neutrality Stage</Link>
+          </li>
+          <li>
+            <Link href="/">ESG Leadership &amp; Governance Stage</Link>
+          </li>
+        </ul>
+      </li>
+      
+      <li>
+        <Link href="/">Tech Ventures </Link>
+      </li>*/}
+      <li className="dropdown">
+        <Link href="/">Past Editions</Link>
+        <ul>
+          <li>
+            <Link href="https://2024.esgxchangehk.com/">2024</Link>
+          </li>
+          <li>
+            <Link href="https://thewgo.org/site-wgo/unf/">2023</Link>
+          </li>
+        </ul>
+      </li>
       <li >
         <div className="about-two__btn-box">
           <Link href="/register" className="about-two__btn thm-btn-two" style={{fontSize: '16px'}}>
@@ -94,6 +157,102 @@ const MobileMenu = ({ mobileToggle, setMobileToggle }) => {
             <li className="current">
               <Link href="/">
                 Home{" "}
+              </Link>
+            </li>
+            <li className="dropdown">
+              <a href="#">
+                Exhibitors and Sponsors
+                <button
+                  aria-label="dropdown toggler"
+                  onClick={() => activeMenuSet("Exhibitors")}
+                >
+                  <i className="fa fa-angle-down" />
+                </button>
+              </a>
+              <ul style={activeLi("Exhibitors")}>
+                <li>
+                  <Link href="/">Why Sponsor and Exhibit</Link>
+                </li>
+                <li>
+                  <Link href="/">2025 Sponsors and Exhibitors</Link>
+                </li>
+              </ul>
+            </li>
+            <li className="dropdown">
+              <a href="#">
+                Partners
+                <button
+                  aria-label="dropdown toggler"
+                  onClick={() => activeMenuSet("Partners")}
+                >
+                  <i className="fa fa-angle-down" />
+                </button>
+              </a>
+              <ul style={activeLi("Partners")}>
+                <li>
+                  <Link href="/">Organiser</Link>
+                </li>
+                <li>
+                  <Link href="/">Co-organiser</Link>
+                </li>
+                <li>
+                  <Link href="/">Conference Partner</Link>
+                </li>
+                <li>
+                  <Link href="/">Supporting Organisations</Link>
+                </li>
+              </ul>
+            </li>
+            <li className="dropdown">
+              <a href="#">
+                Summit
+                <button
+                  aria-label="dropdown toggler"
+                  onClick={() => activeMenuSet("Summit")}
+                >
+                  <i className="fa fa-angle-down" />
+                </button>
+              </a>
+              <ul style={activeLi("Summit")}>
+                <li>
+                  <Link href="/">2025 Summit</Link>
+                </li>
+                <li>
+                  <Link href="/">Global Climate Leadership Main Stage</Link>
+                </li>
+                <li>
+                  <Link href="/">The Innovation Stage</Link>
+                </li>
+                <li>
+                  <Link href="/">Green Finance &amp; Carbon Neutrality Stage</Link>
+                </li>
+                <li>
+                  <Link href="/">ESG Leadership &amp; Governance Stage</Link>
+                </li>
+              </ul>
+            </li>
+            <li className="dropdown">
+              <a href="#">
+                Past Editions
+                <button
+                  aria-label="dropdown toggler"
+                  onClick={() => activeMenuSet("Editions")}
+                >
+                  <i className="fa fa-angle-down" />
+                </button>
+              </a>
+              <ul style={activeLi("Editions")}>
+                <li>
+                  <Link href="/">2024</Link>
+                </li>
+                <li>
+                  <Link href="/">2023</Link>
+                </li>
+              </ul>
+            </li>
+            <li className="current">
+              <Link href="/">
+                Tech Ventures{" "}
               </Link>
             </li>
             <li>
@@ -187,9 +346,7 @@ const Header2 = () => {
             <div className="main-menu__wrapper-inner">
               <div className="main-menu__left">
                 <div className="main-menu__logo">
-                  <Link href="/">
-                    <img src="assets/images/resources/header.png" alt="" />
-                  </Link>
+                    <img src="assets/images/resources/header.png" alt="" width='80%' />
                 </div>
               </div>
               <div className="main-menu__right">

@@ -92,8 +92,7 @@ const page = () => {
                 </p>
                 <div className="quick-contact__contact-list">
                   <p>
-                    Hall 5G
-                    <br /> HKCEC, Wan Chai
+                  Hall 5G, Hong Kong Convention and Exhibition Centre (HKCEC), Wan Chai <br/> <br/><span style={{fontSize:'150%'}}>Free of Charge </span> 
                   </p>
                 </div>
                 <div className="quick-contact__icon">
@@ -110,7 +109,7 @@ const page = () => {
                 <br/>
                 <p className="quick-contact__text">
                   If your organisation is interested in sponsoring our event, please reach out to our team via phone / email:
-                </p>
+                </p><br/>
                 <div className="quick-contact__contact-list">
                   <p>
                     <a>
@@ -118,7 +117,7 @@ const page = () => {
                     </a>
                   </p>
                   <p>
-                    <a href="mailto:sendmail@company.com">
+                    <a href="mailto:nickauyong@thewgo.org">
                       Email: nickauyong@thewgo.org{" "}
                     </a>
                   </p>
@@ -640,8 +639,16 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                           </div>
                         </div>
                       </div>
-
-
+                      {/* 
+                      <p className="section-title__tagline section-title__tagline--two"> <br/> How did you hear about our event? (Please select all that apply) <br/><br/></p>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="WGO's Social Media (e.g., Facebook, LinkedIn, Instagram) " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Online Advertisements (e.g., banners, pop-ups)" name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Street Displays (e.g., digital billboards, posters) " name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Sharing from friends or colleagues" name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="News or media coverage" name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Email newsletter" name="entry.1350208563"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Other (please specify)" name="entry.1350208563"/></div>
+                      */}
 
                       <p>
                       <br/>
