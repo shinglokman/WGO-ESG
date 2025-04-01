@@ -33,7 +33,7 @@ const page = () => {
         </div>
       </section>
 
-      {/* Co Organiser */}
+      {/* Co Organiser 
       <section className="join-event" id='co-organiser'>
         <div className="container">
           <div className="join-event__title-and-btn-box">
@@ -56,6 +56,7 @@ const page = () => {
           <br/>
         </div>
       </section>
+      */}
     </EnvensLayouts>
   );
 };

@@ -112,7 +112,7 @@ const page = () => {
           />
         </div>
         <div className="container">
-          <div className="site-footer-two__top-inner">
+          <div className="site-footer-two__top-inner" style={{justifyContent: 'center'}}>
             <div className="site-footer-two__logo" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
               <div className="site-footer-two__top-icon-content">
                 <h5 style={{paddingBottom: '10px'}}>Organiser</h5>
@@ -125,6 +125,7 @@ const page = () => {
                 />
               </Link>
             </div> 
+            {/* 
             <div className="site-footer-two__logo" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
               <div className="site-footer-two__top-icon-content">
                 <h5 style={{paddingBottom: '10px'}}>Co-Organiser</h5>
@@ -149,7 +150,7 @@ const page = () => {
                 />
               </Link>
             </div> 
-            
+            */}
           </div>
         </div>
       </div>
