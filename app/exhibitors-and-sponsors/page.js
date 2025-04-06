@@ -110,11 +110,11 @@ const page = () => {
                     <h3 style={{fontWeight: '400', textAlign: 'center', marginTop:'20%'}}>
                       Platinum 
                       <br/>
-                      <img src="assets/images/sponsors/intertek.jpeg" alt="" style={{width:'35%', margin: '5%', marginTop:'7%'}}/>
+                      <img src="assets/images/sponsors/henderson.png" alt="" style={{width:'35%', margin: '5%', marginTop:'7%'}}/>
                       <img src="assets/images/sponsors/hkrita.jpeg" alt="" style={{width:'35%', margin: '5%', marginTop:'7%'}}/>
                       <br/>
+                      <img src="assets/images/sponsors/intertek.png" alt="" style={{width:'35%', margin: '5%', marginTop:'0%', transform:'scale(0.8)'}}/>
                       <img src="assets/images/sponsors/swire.png" alt="" style={{width:'35%', margin: '5%', marginTop:'0%'}}/>
-                      <img src="assets/images/sponsors/henderson.png" alt="" style={{width:'35%', margin: '5%', marginTop:'0%'}}/>
                     </h3>
                   </div>
 
