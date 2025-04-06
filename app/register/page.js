@@ -687,6 +687,7 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                       <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Email newsletter" name="entry.1128947227"/></div>
                       <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Other (please specify)" name="entry.1128947227"/></div>
                       */}
+                      <p className="section-title__tagline section-title__tagline--two"> <br/> How did you hear about our event? (Please select all that apply) *<br/><br/></p>
 
                       {options.map((option) => (
                         <div className="col-xl-6 col-lg-6">

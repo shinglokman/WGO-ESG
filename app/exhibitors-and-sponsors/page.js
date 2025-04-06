@@ -28,12 +28,12 @@ const page = () => {
                 <h3 style={{fontWeight: '400'}}>
                 ESG Xchange 2025 is the most anticipated global ESG summit in Hong Kong, uniting world leaders, regulators, and innovators to accelerate meaningful climate and sustainability action.
                 </h3><br/><br/>
-                <ul className="about-two__points list-unstyled" style={{fontSize: '18px', width: '70%'}}>
+                <ul className="about-two__points list-unstyled" style={{fontSize: '18px', width: '70%', textDecoration: 'bold'}}>
                   <li>
                     <div className="icon">
                       <span className="icon-check-1" />
                     </div>
-                    <p><b>Unparalleled Reach and Influence:</b> 3,000+ high-level participants including senior government officials, UN representatives, global business leaders, and C-suite executives </p>
+                    <p>Unparalleled Reach and Influence: 3,000+ high-level participants including senior government officials, UN representatives, global business leaders, and C-suite executives </p>
                   </li>
                   <li>
                     <div className="icon">
@@ -91,60 +91,66 @@ const page = () => {
                   </h1>
                 </div><br/>
                 
-
-
-                <section className="gallery-two" >
-                  <div className="gallery-two__bottom">
-                    <div className="container">
-                      <div className="row masonary-layout">
-                        {/*Project Three Single Start*/}
-                        <div
-                          className="col-xl-4 col-lg-4 col-md-4 col-sm-6"
-                        >
-                          <div className="gallery-two__single">
-                            <div className="gallery-two__img">
-                              <img src="assets/images/sponsors/intertek.jpeg" alt="" />
-                            </div>
-                          </div>
-                        </div>
-                        {/*Project Three Single End*/}
-                        {/*Project Three Single Start*/}
-                        <div
-                          className="col-xl-4 col-lg-4 col-md-4 col-sm-6"
-                        >
-                          <div className="gallery-two__single">
-                            <div className="gallery-two__img">
-                              <img src="assets/images/sponsors/crystal.jpeg" alt="" />
-                            </div>
-                          </div>
-                        </div>
-                        {/*Project Three Single End*/}
-                        {/*Project Three Single Start*/}
-                        <div
-                          className="col-xl-4 col-lg-4 col-md-4 col-sm-6"
-                        >
-                          <div className="gallery-two__single">
-                            <div className="gallery-two__img">
-                              <img src="assets/images/sponsors/hkrita.jpeg" alt="" />
-                            </div>
-                          </div>
-                        </div>
-                        {/*Project Three Single End*/}
-                        {/*Project Three Single Start*/}
-                        <div
-                          className="col-xl-4 col-lg-4 col-md-4 col-sm-6"
-                        >
-                          <div className="gallery-two__single">
-                            <div className="gallery-two__img">
-                              <img src="assets/images/sponsors/tuvrheinland.jpeg" alt="" />
-                            </div>
-                          </div>
-                        </div>
-                        {/*Project Three Single End*/}
-                      </div>
-                    </div>
+                <div className="row masonary-layout">
+                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <h3 style={{fontWeight: '400', textAlign: 'center', marginTop:'10%'}}>
+                      Supreme Diamond <br/>
+                      <img src="assets/images/sponsors/crystal.jpeg" alt="" style={{maxWidth:'500px', marginTop:'7%'}}/>
+                    </h3>
                   </div>
-                </section>
+
+                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <h3 style={{fontWeight: '400', textAlign: 'center', marginTop:'20%'}}>
+                      Double Diamond <br/>
+                      <img src="" alt="" style={{maxWidth:'500px', marginTop:'7%'}}/>
+                    </h3>
+                  </div>
+
+                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <h3 style={{fontWeight: '400', textAlign: 'center', marginTop:'20%'}}>
+                      Platinum 
+                      <br/>
+                      <img src="assets/images/sponsors/intertek.jpeg" alt="" style={{width:'35%', margin: '5%', marginTop:'7%'}}/>
+                      <img src="assets/images/sponsors/hkrita.jpeg" alt="" style={{width:'35%', margin: '5%', marginTop:'7%'}}/>
+                      <br/>
+                      <img src="assets/images/sponsors/swire.png" alt="" style={{width:'35%', margin: '5%', marginTop:'0%'}}/>
+                      <img src="assets/images/sponsors/henderson.png" alt="" style={{width:'35%', margin: '5%', marginTop:'0%'}}/>
+                    </h3>
+                  </div>
+
+                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <h3 style={{fontWeight: '400', textAlign: 'center', marginTop:'20%'}}>
+                      Gold <br/>
+                      <img src="" alt="" style={{maxWidth:'500px', marginTop:'7%'}}/>
+                    </h3>
+                  </div>
+
+                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <h3 style={{fontWeight: '400', textAlign: 'center', marginTop:'20%'}}>
+                      Silver 
+                      <br/>
+                      <img src="assets/images/sponsors/tuvrheinland.jpeg" alt="" style={{width:'35%', margin: '5%', marginTop:'7%'}}/>
+                      <img src="assets/images/sponsors/riskory.png" alt="" style={{width:'35%', margin: '5%', marginTop:'7%'}}/>
+                    </h3>
+                  </div>
+
+                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <h3 style={{fontWeight: '400', textAlign: 'center', marginTop:'20%'}}>
+                      Bronze <br/>
+                      <img src="" alt="" style={{maxWidth:'500px', marginTop:'7%'}}/>
+                    </h3>
+                  </div>
+
+                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <h3 style={{fontWeight: '400', textAlign: 'center', marginTop:'10%'}}>
+                      Green <br/>
+                      <img src="assets/images/sponsors/carbonnext.jpg" alt="" style={{maxWidth:'35%', marginTop:'7%'}}/>
+                    </h3>
+                  </div>
+                </div>
+
+
+                
               </div>
             </div>
           </div>

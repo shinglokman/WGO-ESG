@@ -56,6 +56,9 @@ const Menus = () => {
             <Link href="/partners#conference-partner">Conference Partner</Link>
           </li>
           <li>
+            <Link href="/partners#conference-partner">Strategic Partner</Link>
+          </li>
+          <li>
             <Link href="/partners#supporting-organisations">Supporting Organisations</Link>
           </li>
         </ul>
@@ -201,6 +204,9 @@ const MobileMenu = ({ mobileToggle, setMobileToggle }) => {
                 */}
                 <li>
                   <Link href="/">Conference Partner</Link>
+                </li>
+                <li>
+                  <Link href="/">Strategic Partner</Link>
                 </li>
                 <li>
                   <Link href="/">Supporting Organisations</Link>
