@@ -19,7 +19,7 @@ const page = () => {
               </h2>
             </div>
             <div className="join-event__btn-box">
-            <Link href='https://thewgo.org/website/eng/ '><img src="assets/images/logos/Organiser Logo_WGO.jpg" style={{width: '200px'}}/></Link>
+            <Link href='https://thewgo.org/website/eng/ '><img src="assets/images/logos/Organiser Logo_WGO.jpg" style={{width: '300px'}}/></Link>
             </div>
           </div>
           <p className="join-event__text" style={{textAlign: 'justify'}}>
@@ -57,6 +57,129 @@ const page = () => {
         </div>
       </section>
       */}
+
+
+    {/* Conference Partners */}
+    <section className="join-event" id='conference-partner' style={{padding: '0'}}>
+        <div className="container">
+          <div className="join-event__title-and-btn-box">
+            <div className="section-title text-left">
+              <h2 className="section-title__title">
+                Conference Partner
+              </h2>
+              </div>
+            </div>
+          <br/>
+          <section className="gallery-two">
+            <div className="gallery-two__bottom">
+              <div className="container">
+                <div className="row masonary-layout">
+                  {/*Project Three Single Start*/}
+                  <div
+                    className="col-xl-4 col-lg-4 col-md-4 col-sm-6"
+                  >
+                    <div className="gallery-two__single">
+                      <div className="gallery-two__img">
+                        <img src="assets/images/logos/hkex.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  {/*Project Three Single End*/}
+                  {/*Project Three Single Start*/}
+                  <div
+                    className="col-xl-4 col-lg-4 col-md-4 col-sm-6"
+                  >
+                    <div className="gallery-two__single">
+                      <div className="gallery-two__img">
+                        <img src="assets/images/logos/cyberport.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  {/*Project Three Single End*/}
+                  {/*Project Three Single Start*/}
+                  <div
+                    className="col-xl-4 col-lg-4 col-md-4 col-sm-6"
+                  >
+                    <div className="gallery-two__single">
+                      <div className="gallery-two__img">
+                        <img src="assets/images/logos/escap.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  {/*Project Three Single End*/}
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      {/* Strategic Partners */}
+    <section className="join-event" id='strategic-partner' style={{padding: '0'}}>
+        <div className="container">
+          <div className="join-event__title-and-btn-box">
+            <div className="section-title text-left">
+              <h2 className="section-title__title">
+                Strategic Partner
+              </h2>
+              </div>
+            </div>
+          <br/>
+          <section className="gallery-two">
+            <div className="gallery-two__bottom">
+              <div className="container">
+                <div className="row masonary-layout">
+                  {/*Project Three Single Start*/}
+                  <div
+                    className="col-xl-4 col-lg-4 col-md-4 col-sm-6"
+                  >
+                    <div className="gallery-two__single">
+                      <div className="gallery-two__img">
+                        <img src="assets/images/logos/ipshk.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  {/*Project Three Single End*/}
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      {/* Supporting Organisations */}
+    <section className="join-event" id='supporting-organisations' style={{padding: '0'}}>
+        <div className="container">
+          <div className="join-event__title-and-btn-box">
+            <div className="section-title text-left">
+              <h2 className="section-title__title">
+                Supporting Organisations
+              </h2>
+              </div>
+            </div>
+          <br/>
+          <section className="gallery-two">
+            <div className="gallery-two__bottom">
+              <div className="container">
+                <div className="row masonary-layout">
+                  {/*Project Three Single Start*/}
+                  <div
+                    className="col-xl-4 col-lg-4 col-md-4 col-sm-6"
+                  >
+                    <div className="gallery-two__single">
+                      <div className="gallery-two__img">
+                        <img src="assets/images/logos/unep.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  {/*Project Three Single End*/}
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
     </EnvensLayouts>
   );
 };

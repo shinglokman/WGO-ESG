@@ -25,9 +25,6 @@ const Menus = () => {
   return (
     <ul className="main-menu__list">
       <li>
-        <Social/>
-      </li>
-      <li>
         <Link href="/">Home </Link>
       </li>
       <li className="dropdown">
@@ -56,12 +53,18 @@ const Menus = () => {
             <Link href="/partners#conference-partner">Conference Partner</Link>
           </li>
           <li>
-            <Link href="/partners#conference-partner">Strategic Partner</Link>
+            <Link href="/partners#strategic-partner">Strategic Partner</Link>
           </li>
           <li>
             <Link href="/partners#supporting-organisations">Supporting Organisations</Link>
           </li>
         </ul>
+      </li>
+      <li>
+        <Link href="/summit">Summit   </Link>
+      </li>
+      <li>
+        <Link href="/speakers">Speakers   </Link>
       </li>
       {/*<li className="dropdown">
         <Link href="/summit">Summit</Link>
@@ -155,6 +158,7 @@ const MobileMenu = ({ mobileToggle, setMobileToggle }) => {
           <Link href="/" aria-label="logo image">
             <img src="assets/images/resources/header.png" style={{width: '100%'}} alt />
           </Link>
+          <Social/>
         </div>
         {/* /.logo-box */}
         <div className="mobile-nav__container">
@@ -358,6 +362,7 @@ const Header2 = () => {
                 <div className="main-menu__logo">
                     <img src="assets/images/resources/header.png" alt="" width='80%' />
                 </div>
+                <Social/>
               </div>
               <div className="main-menu__right">
                 <div className="main-menu__main-menu-box">

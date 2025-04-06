@@ -894,10 +894,9 @@ export const EventSchedule2 = () => {
               onClick={() => setToggle("1stday")}
             >
               <div className="events-three__tab-btn-content">
-                <p>November 12 , 2023</p>
-                <h3>
-                  1<span>st</span>Day
-                </h3>
+                <h4>
+                Global Climate Leadership Main Stage
+                </h4>
               </div>
             </li>
             <li
@@ -906,10 +905,9 @@ export const EventSchedule2 = () => {
               onClick={() => setToggle("2ndday")}
             >
               <div className="events-three__tab-btn-content">
-                <p>November 15 , 2023</p>
-                <h3>
-                  2<span>nd</span>Day
-                </h3>
+              <h4>
+              <br/>The Innovation Stage
+                </h4>
               </div>
             </li>
             <li
@@ -918,10 +916,9 @@ export const EventSchedule2 = () => {
               onClick={() => setToggle("3rdday")}
             >
               <div className="events-three__tab-btn-content">
-                <p>November 18 , 2023</p>
-                <h3>
-                  3<span>rd</span>Day
-                </h3>
+              <h4>
+              Green Finance &amp; Carbon Neutrality Stage
+                </h4>
               </div>
             </li>
             <li
@@ -930,10 +927,9 @@ export const EventSchedule2 = () => {
               onClick={() => setToggle("4thdday")}
             >
               <div className="events-three__tab-btn-content">
-                <p>November 22 , 2023</p>
-                <h3>
-                  4<span>th</span>Day
-                </h3>
+              <h4>
+              <br/>ESG Leadership &amp; Governance Stage
+                </h4>
               </div>
             </li>
           </ul>

@@ -727,7 +727,6 @@ ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
 }
 
 .main-menu__logo {
@@ -1316,7 +1315,7 @@ ul {
 }
 
 .mobile-nav__content .logo-box {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9355,7 +9354,7 @@ a.team-two__social-three {
   .tab-buttons
   .tab-btn.active-btn
   .events-three__tab-btn-content
-  h3
+  h4
   span {
   color: var(--envens-white);
 }
