@@ -17,111 +17,99 @@ const page = () => {
               <div className="speaker-page__single">
                 <div className="speaker-page__img-box">
                   <div className="speaker-page__img">
-                    <img src="assets/images/team/speaker-page-1-1.jpg" alt />
+                    <a href=""><img src="assets/images/speakers/william_yu.png" style={{height: '418px'}} alt /></a>
                   </div>
                   <div className="speaker-page__img-shape" />
-                  <div className="speaker-page__share-and-social">
-                    <div className="speaker-page__share">
-                      <a href="#">
-                        <span className="fas fa-share-alt" />
-                      </a>
-                    </div>
-                    <div className="speaker-page__social">
-                      <a href="#">
-                        <span className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <span className="fab fa-vimeo-v" />
-                      </a>
-                      <a href="#">
-                        <span className="fas fa-wifi" />
-                      </a>
-                    </div>
-                  </div>
                 </div>
                 <div className="speaker-page__content">
                   <h3>
-                    <Link href="/speaker-single">Samira B. Tim</Link>
+                    <Link href="">Dr. William Yu</Link>
                   </h3>
-                  <p>Manager</p>
+                  <p>Founder and Chief Executive Officer, WGO</p>
                 </div>
               </div>
             </div>
             {/*Speaker Page Single End*/}
             {/*Speaker Page Single Start*/}
             <div
-              className="col-xl-4 col-lg-4 wow fadeInUp"
-              data-wow-delay="200ms"
+              className="col-xl-4 col-lg-4 wow fadeInLeft"
+              data-wow-delay="100ms"
             >
               <div className="speaker-page__single">
                 <div className="speaker-page__img-box">
                   <div className="speaker-page__img">
-                    <img src="assets/images/team/speaker-page-1-2.jpg" alt />
+                    <a href=""><img src="assets/images/speakers/dennis_wan.jpg" style={{height: '418px'}} alt /></a>
                   </div>
                   <div className="speaker-page__img-shape" />
-                  <div className="speaker-page__share-and-social">
-                    <div className="speaker-page__share">
-                      <a href="#">
-                        <span className="fas fa-share-alt" />
-                      </a>
-                    </div>
-                    <div className="speaker-page__social">
-                      <a href="#">
-                        <span className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <span className="fab fa-vimeo-v" />
-                      </a>
-                      <a href="#">
-                        <span className="fas fa-wifi" />
-                      </a>
-                    </div>
-                  </div>
                 </div>
                 <div className="speaker-page__content">
                   <h3>
-                    <Link href="/speaker-single">Kevin Smith</Link>
+                    <Link href="">Mr. Dennis Wan</Link>
                   </h3>
-                  <p>Manager</p>
+                  <p>Head of Capital Markets (APAC), CDP</p>
                 </div>
               </div>
             </div>
             {/*Speaker Page Single End*/}
             {/*Speaker Page Single Start*/}
             <div
-              className="col-xl-4 col-lg-4 wow fadeInRight"
-              data-wow-delay="300ms"
+              className="col-xl-4 col-lg-4 wow fadeInLeft"
+              data-wow-delay="100ms"
             >
               <div className="speaker-page__single">
                 <div className="speaker-page__img-box">
                   <div className="speaker-page__img">
-                    <img src="assets/images/team/speaker-page-1-3.jpg" alt />
+                    <a href=""><img src="assets/images/speakers/guo_peiyuan.jpg" style={{height: '418px'}} alt /></a>
                   </div>
                   <div className="speaker-page__img-shape" />
-                  <div className="speaker-page__share-and-social">
-                    <div className="speaker-page__share">
-                      <a href="#">
-                        <span className="fas fa-share-alt" />
-                      </a>
-                    </div>
-                    <div className="speaker-page__social">
-                      <a href="#">
-                        <span className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <span className="fab fa-vimeo-v" />
-                      </a>
-                      <a href="#">
-                        <span className="fas fa-wifi" />
-                      </a>
-                    </div>
-                  </div>
                 </div>
                 <div className="speaker-page__content">
                   <h3>
-                    <Link href="/speaker-single">Tim Sefert</Link>
+                    <Link href="">Dr. Guo Peiyuan</Link>
                   </h3>
-                  <p>Manager</p>
+                  <p>Chairman, SynTao Green Finance</p>
+                </div>
+              </div>
+            </div>
+            {/*Speaker Page Single End*/}
+            {/*Speaker Page Single Start*/}
+            <div
+              className="col-xl-4 col-lg-4 wow fadeInLeft"
+              data-wow-delay="100ms"
+            >
+              <div className="speaker-page__single">
+                <div className="speaker-page__img-box">
+                  <div className="speaker-page__img">
+                    <a href=""><img src="assets/images/speakers/kin_sang_cheung.jpg" style={{height: '418px'}} alt /></a>
+                  </div>
+                  <div className="speaker-page__img-shape" />
+                </div>
+                <div className="speaker-page__content">
+                  <h3>
+                    <Link href="">Mr. Cheung Kin Sang</Link>
+                  </h3>
+                  <p>Chairman, Board of Governors, WGO</p>
+                </div>
+              </div>
+            </div>
+            {/*Speaker Page Single End*/}
+            {/*Speaker Page Single Start*/}
+            <div
+              className="col-xl-4 col-lg-4 wow fadeInLeft"
+              data-wow-delay="100ms"
+            >
+              <div className="speaker-page__single">
+                <div className="speaker-page__img-box">
+                  <div className="speaker-page__img">
+                    <a href=""><img src="assets/images/speakers/samson_leong.jpeg" style={{height: '418px'}} alt /></a>
+                  </div>
+                  <div className="speaker-page__img-shape" />
+                </div>
+                <div className="speaker-page__content">
+                  <h3>
+                    <Link href="">Mr. Samson Leong</Link>
+                  </h3>
+                  <p>Senior Manager, Intertek Hong Kong</p>
                 </div>
               </div>
             </div>
@@ -129,7 +117,6 @@ const page = () => {
           </div>
         </div>
       </section>
-      <Team />
     </EnvensLayouts>
   );
 };
