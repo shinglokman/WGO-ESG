@@ -155,9 +155,9 @@ const MobileMenu = ({ mobileToggle, setMobileToggle }) => {
           <i className="fa fa-times" />
         </span>
         <div className="logo-box">
-          <Link href="/" aria-label="logo image">
+          <a href="/" aria-label="logo image">
             <img src="assets/images/resources/header.png" style={{width: '100%'}} alt />
-          </Link>
+          </a>
           <Social/>
         </div>
         {/* /.logo-box */}
@@ -360,7 +360,9 @@ const Header2 = () => {
             <div className="main-menu__wrapper-inner">
               <div className="main-menu__left">
                 <div className="main-menu__logo">
+                  <a href="/">
                     <img src="assets/images/resources/header.png" alt="" width='80%' />
+                    </a>
                 </div>
                 <Social/>
               </div>

@@ -19,7 +19,7 @@ const page = () => {
               </h2>
             </div>
             <div className="join-event__btn-box">
-            <Link href='https://thewgo.org/website/eng/ '><img src="assets/images/logos/Organiser Logo_WGO.jpg" style={{width: '300px'}}/></Link>
+            <Link href='https://thewgo.org/website/eng/ '><img src="assets/images/logos/Organiser Logo_WGO.png" style={{width: '400px'}}/></Link>
             </div>
           </div>
           <p className="join-event__text" style={{textAlign: 'justify'}}>
