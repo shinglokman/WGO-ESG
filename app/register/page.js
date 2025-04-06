@@ -12,6 +12,8 @@ import Checkbox from '@mui/material/Checkbox';
 const page = () => {
 
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);
+  const [selectedOptions, setSelectedOptions] = useState([]);
+  const [otherOption, setOtherOption] = useState('');
   const [form, setForm] = useState({
     'entry.272234028': '',
     'entry.353530242': '',
@@ -23,8 +25,43 @@ const page = () => {
     'entry.856495849': '',
     'entry.1096684556': '',
     'entry.1383365476': '',
-    'entry.1350208563': ''
+    'entry.1350208563': '',
   })
+
+  const options = [
+    { label: "WGO's Social Media (e.g., Facebook, LinkedIn, Instagram)", value: 'entry.1128947227' },
+    { label: 'Online Advertisements (e.g., banners, pop-ups)', value: 'entry.1128947227' },
+    { label: 'Street Displays (e.g., digital billboards, posters)', value: 'entry.1128947227' },
+    { label: 'Sharing from friends or colleagues', value: 'entry.1128947227' },
+    { label: 'News or media coverage', value: 'entry.1128947227' },
+    { label: 'Email newsletter', value: 'entry.1128947227' },
+    { label: 'Others', value: 'other' },
+  ];
+
+  const handleSelectChange = (event) => {
+    const value = event.target.value;
+
+    if (value === 'other') {
+      if (selectedOptions.includes(value)) {
+        setSelectedOptions(prev => prev.filter(option => option !== value));
+        setOtherOption(''); // Clear the other input if unchecked
+      } else {
+        setSelectedOptions(prev => [...prev, value]);
+      }
+    } else {
+      setSelectedOptions((prev) => 
+        prev.includes(value) 
+          ? prev.filter((option) => option !== value) 
+          : [...prev, value]
+      );
+      console.log(selectedOptions)
+    }
+  };
+
+  const handleOtherChange = (event) => {
+    setOtherOption(event.target.value);
+  };
+
 
   useEffect(() => {
     console.log('Form data updated:', form);
@@ -639,17 +676,43 @@ ENTRY IS FREE: Free entry is available for all participants, whether you are fro
                           </div>
                         </div>
                       </div>
+                      
                       {/* 
-                      <p className="section-title__tagline section-title__tagline--two"> <br/> How did you hear about our event? (Please select all that apply) <br/><br/></p>
-                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="WGO's Social Media (e.g., Facebook, LinkedIn, Instagram) " name="entry.1350208563"/></div>
-                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Online Advertisements (e.g., banners, pop-ups)" name="entry.1350208563"/></div>
-                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Street Displays (e.g., digital billboards, posters) " name="entry.1350208563"/></div>
-                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Sharing from friends or colleagues" name="entry.1350208563"/></div>
-                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="News or media coverage" name="entry.1350208563"/></div>
-                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Email newsletter" name="entry.1350208563"/></div>
-                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Other (please specify)" name="entry.1350208563"/></div>
+                      <p className="section-title__tagline section-title__tagline--two"> <br/> How did you hear about our event? (Please select all that apply) *<br/><br/></p>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="WGO's Social Media (e.g., Facebook, LinkedIn, Instagram)" name="entry.1128947227"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Online Advertisements (e.g., banners, pop-ups)" name="entry.1128947227"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Street Displays (e.g., digital billboards, posters)" name="entry.1128947227"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Sharing from friends or colleagues" name="entry.1128947227"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="News or media coverage" name="entry.1128947227"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Email newsletter" name="entry.1128947227"/></div>
+                      <div className="col-xl-6 col-lg-6"><FormControlLabel control={<Checkbox style={{color: '#fff'}}/>} label="Other (please specify)" name="entry.1128947227"/></div>
                       */}
 
+                      {options.map((option) => (
+                        <div className="col-xl-6 col-lg-6">
+                          <FormControlLabel 
+                            key={option.value} 
+                            control={<Checkbox style={{color: '#fff'}} value={option.value} checked={selectedOptions.includes(option.value)} onChange={handleSelectChange}/>} 
+                            label={option.label} 
+                            name={option.value} 
+                            />
+                        </div>
+                      ))}
+                      {selectedOptions.includes('other') && (
+                        <div className="col-xl-12 col-lg-12">
+                          <div className="contact-two__input-box">
+                            <input
+                              type="text"
+                              name="entry.1128947227"
+                              placeholder="Please Specify *"
+                              onChange={handleChange}
+                              required
+                            />
+                          </div>
+                        </div>
+                      )}
+
+                      
                       <p>
                       <br/>
                         1. By registering for this event, we will process your information in accordance with our

@@ -145,9 +145,6 @@ const page = () => {
                     </div>
                   </div>
                 </section>
-
-
-
               </div>
             </div>
           </div>

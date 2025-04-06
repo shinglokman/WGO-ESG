@@ -189,7 +189,7 @@ export const HeroSlider2 = () => {
                   <h2 className="main-slider-two__title">
                     <div style={{fontSize: '50px', lineHeight: '70px', textTransform: 'none'}}>ESG for Climate Actions <br/> International Summit <br/></div>
                     {/*try color-text */}<span className="italic-text" style={{fontSize:'50px', lineHeight: '70px'}}><img src="assets/images/logos/logo.png" style={{width:'600px'}}/></span><br />
-                    <span className="italic-text" style={{fontSize:'40px', lineHeight: '50px', textTransform: 'none'}}>May 6-7 2025, HKCEC Hall 5G</span>
+                    <span className="italic-text" style={{fontSize:'40px', lineHeight: '50px', textTransform: 'none'}}>May 6-7 2025, Hong Kong Convention and Exhibition Centre, Hall 5G</span>
                   </h2>
                   <div className="main-slider-two__border" />
                   {/* /.curved-circle */}
