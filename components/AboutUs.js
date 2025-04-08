@@ -11,7 +11,7 @@ const AboutUs = () => {
                 className="about-two__img"
                 style={{
                   backgroundImage:
-                    "url(assets/images/resources/about-two-img-2.png)",
+                    "url(assets/images/resources/poster.jpg)",
                 }}
               />
             </div>
